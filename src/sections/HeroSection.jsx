@@ -1,5 +1,7 @@
-import { HandRaisedIcon } from "@heroicons/react/24/solid";
+import {ArrowRightIcon } from "@heroicons/react/24/solid";
+import Buttons from "../components/buttons";
 import myPic from "../img/pexels-almustapha-adam-1663967297-30159714.jpg";
+import { FaDownload, FaFileDownload } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -25,8 +27,13 @@ const Hero = () => {
         <h4>frontend Web developer </h4>
         <h4>based in Nigeria.</h4>
       </div>
-      <div className="intro">
+      <div className="intro mb-8">
        <h4 className="text-lg font-bold">I am a frontend developer from Ebonyi, Nigeria with 5 years of experience</h4>
+      </div>
+
+      <div className="btns flex justify-center gap-2">
+        <Buttons color={"bg-black"} textColor={"text-white"} icons={<ArrowRightIcon className="w-5 h-5 mt-1"/>} text={"contact me"}/>
+        <Buttons color={"border border-black"} textColor={"text-black"} icons={<FaDownload  className="w-5 h-5 mt-1"/>} text={"my resume"}/>
       </div>
     </div>
   );
