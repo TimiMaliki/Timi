@@ -1,7 +1,7 @@
 import {ArrowRightIcon } from "@heroicons/react/24/solid";
 import Buttons from "../components/buttons";
 import myPic from "../img/pexels-almustapha-adam-1663967297-30159714.jpg";
-import { FaDownload, FaFileDownload } from "react-icons/fa";
+import { FaDownload} from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -16,19 +16,19 @@ const Hero = () => {
       </div>
 
       <div
-        className="myName flex justify-center gap-4 mb-5"
+        className="myName flex justify-center gap-4 mb-3 md:mb-5"
         style={{ letterSpacing: "2px" }}
       >
-        <h3 className="font-semibold text-lg">Hi! I'm Timi Maliki</h3>{" "}
+        <h3 className="font-normal text-lg">Hi! I'm Timi Maliki</h3>{" "}
         <h2 className="text-2xl animate-wave -mt-2"> 👋</h2>
       </div>
 
-      <div className="job-description text-5xl font-bold text-center mb-5">
-        <h1>frontend Web developer </h1>
-        <h1>based in Nigeria.</h1>
+      <div className="job-description text-3xl md:text-5xl font-medium text-center  md-2 mb-2 md:mb-5">
+        <h1>frontend Web developer</h1>
+        <h1> based in Nigeria.</h1>
       </div>
-      <div className="intro mb-8">
-       <h4 className="text-lg font-bold">I am a frontend developer from Ebonyi, Nigeria with 5 years of experience</h4>
+      <div className="intro p-5 lg:p-2 mb-4 md:mb-8">
+       <h4 className="text-base md:text-lg font-light">I am a frontend developer from Ebonyi, Nigeria with 5 years of experience</h4>
       </div>
 
       <div className="btns flex justify-center gap-2">

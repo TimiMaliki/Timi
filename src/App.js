@@ -1,4 +1,5 @@
 import './App.css';
+import AboutMe from './sections/About';
 import Hero from './sections/HeroSection';
 import Navbar from './sections/Navbar';
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
+      <AboutMe/>
     </>
   );
 }

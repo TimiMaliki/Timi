@@ -83,9 +83,9 @@ const Navbar = () => {
 
         <button onClick={() => isOpen(!open)} className="md:hidden">
           {open ? (
-            <XMarkIcon className="w-8 h-8 text-slate-900" />
+            <XMarkIcon className="w-8 h-8 text-slate-500" />
           ) : (
-            <Bars3Icon className="w-8 h-8 text-slate-900" />
+            <Bars3Icon className="w-8 h-8 text-slate-500" />
           )}
         </button>
       </div>
