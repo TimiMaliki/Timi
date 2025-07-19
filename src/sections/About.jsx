@@ -5,17 +5,12 @@ import edu from "../img/about-me/mortarboard_114806.png";
 import project from "../img/about-me/business-bag_18922627.png";
 import github from "../img/tool/git_2111423.png";
 import vscode from "../img/tool/visual-basic_5968571.png";
+import Header from "../components/Headers";
 
 const AboutMe = () => {
   return (
     <div className="max-w-7xl grid place-content-center mx-auto w-full py-24">
-      <div className="intro mb-5 md:mb-10">
-        <h4 className="text-lg font-bold flex justify-center text-center ovo-regular mb-3">
-          Introduction
-        </h4>
-        <h2 className="text-center text-4xl font-medium">About me</h2>
-      </div>
-
+    <Header intro={"Introduction"} title={"About me"}/>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 ">
         <div className="profile-picture mb-4">
           <img
@@ -72,10 +67,10 @@ const AboutMe = () => {
           <h2 className="text-lg font-medium">Tools I use</h2>
         </div>
         <div className="tools-box grid md:flex md:justify-center gap-4">
-        <div className="box-one rounded-lg border border-black w-[60px] h-[60px] flex align-middle justify-center text-center p-2">
+        <div className="box-one rounded-lg border  w-[60px] h-[60px] flex align-middle justify-center text-center p-2 shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]">
             <img src={vscode} alt="github" className="w-[40px] h-[40px]" />
           </div>
-          <div className="box-one rounded-lg border border-black w-[60px] h-[60px] flex align-middle justify-center text-center p-2">
+          <div className="box-one rounded-lg border  w-[60px] h-[60px] flex align-middle justify-center text-center p-2 shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]">
             <img src={github} alt="github" className="w-[40px] h-[40px]" />
           </div>
 
