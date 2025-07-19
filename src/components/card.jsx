@@ -3,7 +3,7 @@ import { useState } from "react";
 const Card = ({ icon, header, text , more }) => {
   const [readMore, setReadMore] = useState(false);
   return (
-    <div className="w-[300px] rounded-xl border border-black">
+    <div className="w-full md:w-[300px] rounded-xl border border-black ovo-regular">
       <div className="icon flex text-start p-4"><img src={icon} alt="icons" className="w-14 h-14"/></div>
       <div className="header flex text-start p-4">{header}</div>
       <div className="text p-5"><p className="text-lg font-normal flex justify-center gap-3">{text}</p></div>

@@ -1,12 +1,12 @@
 import Card from "../components/card";
 import profilePicture from "../img/pexels-almustapha-adam-1663967297-30159714.jpg";
-import lang from "../img/about-me/program_16632872.png"
-import edu from "../img/about-me/mortarboard_114806.png"
-import project from "../img/about-me/business-bag_18922627.png"
+import lang from "../img/about-me/program_16632872.png";
+import edu from "../img/about-me/mortarboard_114806.png";
+import project from "../img/about-me/business-bag_18922627.png";
+import github from "../img/tool/git_2111423.png";
+import vscode from "../img/tool/visual-basic_5968571.png";
 
 const AboutMe = () => {
-
-
   return (
     <div className="max-w-7xl grid place-content-center mx-auto w-full py-24">
       <div className="intro mb-5 md:mb-10">
@@ -34,20 +34,49 @@ const AboutMe = () => {
               contributing to their success and growth.
             </h4>
           </div>
-          <div className="w-full details-about md:flex md:justify-center gap-4">
-              <div className="card-one">
-                <Card icon={lang} header={"Languages"} text={"Html, Css, JavaScript, ReactJs, NextJs"} more={"TailwindCss , BootStrap"}/>
-              </div>
+          <div className="w-full details-about  md:flex md:justify-center gap-2 md:gap-4">
+            <div className="card-one">
+              <Card
+                icon={lang}
+                header={"Languages"}
+                text={"Html, Css, JavaScript, ReactJs, NextJs"}
+                more={"TailwindCss , BootStrap"}
+              />
+            </div>
 
-              <div className="card-two">
-                <Card icon={edu} header={"Education"} text={"BSc in Computer Engineering Michael Okpara University of Agriculture Umudike , Nigeria"} more={"CGPA - 3.54"}/>
-              </div>
+            <div className="card-two">
+              <Card
+                icon={edu}
+                header={"Education"}
+                text={
+                  "BSc in Computer Engineering Michael Okpara University of Agriculture Umudike , Nigeria"
+                }
+                more={"CGPA - 3.54"}
+              />
+            </div>
 
-              <div className="card-three">
-                <Card icon={project} header={"Projects"} text={""}/>
-              </div>
+            <div className="card-three">
+              <Card
+                icon={project}
+                header={"Projects"}
+                text={"Built more than 10 pet projects"}
+                more={"github-https://github.com/TimiMaliki"}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
 
-
+      <div className="tools py-10 ovo-regular">
+        <div className="intro flex justify-center text-center p-9">
+          <h2 className="text-lg font-medium">Tools I use</h2>
+        </div>
+        <div className="tools-box grid md:flex md:justify-center gap-4">
+        <div className="box-one rounded-lg border border-black w-[60px] h-[60px] flex align-middle justify-center text-center p-2">
+            <img src={vscode} alt="github" className="w-[40px] h-[40px]" />
+          </div>
+          <div className="box-one rounded-lg border border-black w-[60px] h-[60px] flex align-middle justify-center text-center p-2">
+            <img src={github} alt="github" className="w-[40px] h-[40px]" />
           </div>
 
         </div>
