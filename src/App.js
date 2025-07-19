@@ -1,11 +1,13 @@
 import './App.css';
+import Hero from './sections/HeroSection';
 import Navbar from './sections/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar/>
-    </div>
+      <Hero/>
+    </>
   );
 }
 

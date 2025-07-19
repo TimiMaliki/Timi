@@ -42,16 +42,16 @@ const Navbar = () => {
         {/* Desktop view */}
 
         {/* my name */}
-        <div className="brand text-2xl font-semibold hover:text-blue-700 transition-all duration-300 cursor-pointer">
+        <div className={`brand text-2xl font-semibold ${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""} cursor-pointer`}>
           {brandName}
         </div>
         {/* ------------------Nav Links -------------------*/}
-        <div className="hidden md:flex justify-center space-x-8 border border-light px-7 p-4 rounded-full shadow-[0px_1px_4px_rgba(0,0,0,0.16)]">
+        <div className="hidden md:flex justify-center space-x-8 border border-slate-50 px-7 p-4 rounded-full shadow-[0px_1px_4px_rgba(0,0,0,0.16)]">
           {links.map((nav, index) => (
             <a
               href={nav.href}
               key={index}
-              className="text-lg font-medium  hover:text-blue-700 transition-all duration-300"
+              className={`text-lg font-medium ${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""}`}
             >
               {nav.name}
             </a>
@@ -66,16 +66,16 @@ const Navbar = () => {
             aria-label="Toggle Dark Mode"
           >
             {darkMode ? (
-              <SunIcon className="w-8 h-8 text-blue-600" />
+              <SunIcon className={`w-8 h-8 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
             ) : (
-              <MoonIcon className="w-8 h-8 text-blue-600" />
+              <MoonIcon className={`w-8 h-8 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
             )}
           </button>
 
           {/* GitHub Contact */}
 
          <a href="https://github.com/TimiMaliki">
-         <FaGithub className="w-8 h-10 text-blue-600" />
+         <FaGithub className={`w-8 h-10 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
          </a>
         </div>
 
@@ -83,9 +83,9 @@ const Navbar = () => {
 
         <button onClick={() => isOpen(!open)} className="md:hidden">
           {open ? (
-            <XMarkIcon className="w-8 h-8" />
+            <XMarkIcon className="w-8 h-8 text-slate-900" />
           ) : (
-            <Bars3Icon className="w-8 h-8" />
+            <Bars3Icon className="w-8 h-8 text-slate-900" />
           )}
         </button>
       </div>
@@ -98,7 +98,7 @@ const Navbar = () => {
             <a
               href={nav.href}
               key={index}
-              className="text-md font-medium  hover:text-blue-700 transition-all duration-300"
+              className="text-md font-medium  hover:text-slate-900 transition-all duration-300"
             >
               {nav.name}
             </a>
