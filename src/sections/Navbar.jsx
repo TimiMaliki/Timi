@@ -42,11 +42,11 @@ const Navbar = () => {
         {/* Desktop view */}
 
         {/* my name */}
-        <div className={`brand text-2xl font-semibold ${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""} cursor-pointer`}>
+        <div className={`brand text-2xl ovo-regular font-semibold ${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""} cursor-pointer`}>
           {brandName}
         </div>
         {/* ------------------Nav Links -------------------*/}
-        <div className="hidden md:flex justify-center space-x-8 border border-slate-50 px-7 p-4 rounded-full shadow-[0px_1px_4px_rgba(0,0,0,0.16)]">
+        <div className="hidden md:flex ovo-regular justify-center space-x-8 border border-slate-50 px-7 p-4 rounded-full shadow-[0px_1px_4px_rgba(0,0,0,0.16)]">
           {links.map((nav, index) => (
             <a
               href={nav.href}

@@ -5,7 +5,7 @@ import { FaDownload, FaFileDownload } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="w-full grid place-content-center mt-20 md:mt-28">
+    <div className="w-full ovo-regular grid place-content-center mt-20 md:mt-28">
       <div className="flex justify-center mb-4">
         <img
           src={myPic}
@@ -23,9 +23,9 @@ const Hero = () => {
         <h2 className="text-2xl animate-wave -mt-2"> 👋</h2>
       </div>
 
-      <div className="job-description text-5xl font-semibold text-center mb-5">
-        <h4>frontend Web developer </h4>
-        <h4>based in Nigeria.</h4>
+      <div className="job-description text-5xl font-bold text-center mb-5">
+        <h1>frontend Web developer </h1>
+        <h1>based in Nigeria.</h1>
       </div>
       <div className="intro mb-8">
        <h4 className="text-lg font-bold">I am a frontend developer from Ebonyi, Nigeria with 5 years of experience</h4>
@@ -33,7 +33,7 @@ const Hero = () => {
 
       <div className="btns flex justify-center gap-2">
         <Buttons color={"bg-black"} textColor={"text-white"} icons={<ArrowRightIcon className="w-5 h-5 mt-1"/>} text={"contact me"}/>
-        <Buttons color={"border border-black"} textColor={"text-black"} icons={<FaDownload  className="w-5 h-5 mt-1"/>} text={"my resume"}/>
+        <Buttons color={"border border-black"} textColor={""} icons={<FaDownload  className="w-5 h-5 mt-1"/>} text={"my resume"}/>
       </div>
     </div>
   );
