@@ -1,3 +1,6 @@
+import { FaAlignRight, FaArrowAltCircleRight } from "react-icons/fa";
+import Buttons from "../components/buttons";
+import Header from "../components/Headers";
 
 const LatestWorks = () => {
   const projects = [
@@ -37,16 +40,7 @@ const LatestWorks = () => {
     <section className="py-20 ovo-regular">
       <div className="w-full max-w-7xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-16">
-          <span className="text-sm uppercase tracking-wide font-semibold">
-            Portfolio Showcase
-          </span>
-          <h2 className="text-4xl md:text-5xl font-extrabold mt-2">
-            My Work
-
-          </h2>
-        </div>
-
+        <Header intro={"Portfolio showcase"} title={"My Work"}/>
         {/* Projects Grid */}
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3 text-black">
           {projects.map((project, index) => (
@@ -66,24 +60,21 @@ const LatestWorks = () => {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mb-3">
                 {project.tags.map((tag, i) => (
-                  <span
-                    key={i}
-                    className="text-base font-light"
-                  >
+                  <span key={i} className="text-base font-light">
                     {tag}
                   </span>
                 ))}
               </div>
 
               {/* Title & Description */}
-              <h3 className="text-xl font-bold mb-">
-                {project.title}
-              </h3>
-              <p className=" text-sm mb-4">
-                {project.description}
-              </p>
+              <h3 className="text-xl font-bold mb-">{project.title}</h3>
+              <p className=" text-sm mb-4">{project.description}</p>
             </div>
           ))}
+        </div>
+
+        <div className="flex justify-center align-middle py-8">
+        <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"} textColor={""} icons={<FaArrowAltCircleRight  className="w-5 h-5 mt-1 "/>} text={"view more"} />
         </div>
       </div>
     </section>
