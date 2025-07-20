@@ -4,6 +4,7 @@ import Achievement from './sections/Certs';
 import Hero from './sections/HeroSection';
 import Navbar from './sections/Navbar';
 import Services from './sections/Services';
+import LatestWorks from './sections/Works';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutMe/>
       <Achievement/>
       <Services/>
+      <LatestWorks/>
     </>
   );
 }

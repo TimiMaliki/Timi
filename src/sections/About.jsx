@@ -57,10 +57,10 @@ const AboutMe = () => {
             <div className="card-three">
               <Card
                 icon={project}
-                header={"Projects"}
-                text={"Built more than 10 pet projects"}
+                header={"Experience"}
+                text={"One Year Internship"}
                 readmore={"readmore"}
-                more={"github-https://github.com/TimiMaliki"}
+                more={"One Year Internship at Achota Limited , Ebonyi State Nigeria"}
               />
             </div>
           </div>
