@@ -4,6 +4,8 @@ import lang from "../img/about-me/program_16632872.png";
 import edu from "../img/about-me/mortarboard_114806.png";
 import project from "../img/about-me/business-bag_18922627.png";
 import github from "../img/tool/git_2111423.png";
+import figma from "../img/tool/figma_5968704.png";
+import stackOverflow from "../img/tool/stack_13651023.png";
 import vscode from "../img/tool/visual-basic_5968571.png";
 import Header from "../components/Headers";
 
@@ -35,6 +37,7 @@ const AboutMe = () => {
                 icon={lang}
                 header={"Languages"}
                 text={"Html, Css, JavaScript, ReactJs, NextJs"}
+                readmore={"readmore"}
                 more={"TailwindCss , BootStrap"}
               />
             </div>
@@ -46,6 +49,7 @@ const AboutMe = () => {
                 text={
                   "BSc in Computer Engineering Michael Okpara University of Agriculture Umudike , Nigeria"
                 }
+                readmore={"readmore"}
                 more={"CGPA - 3.54"}
               />
             </div>
@@ -55,6 +59,7 @@ const AboutMe = () => {
                 icon={project}
                 header={"Projects"}
                 text={"Built more than 10 pet projects"}
+                readmore={"readmore"}
                 more={"github-https://github.com/TimiMaliki"}
               />
             </div>
@@ -73,7 +78,12 @@ const AboutMe = () => {
           <div className="box-one rounded-lg border  w-[60px] h-[60px] flex align-middle justify-center text-center p-2 shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]">
             <img src={github} alt="github" className="w-[40px] h-[40px]" />
           </div>
-
+          <div className="box-one rounded-lg border  w-[60px] h-[60px] flex align-middle justify-center text-center p-2 shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]">
+            <img src={figma} alt="github" className="w-[40px] h-[40px]" />
+          </div>
+          <div className="box-one rounded-lg border  w-[60px] h-[60px] flex align-middle justify-center text-center p-2 shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]">
+            <img src={stackOverflow} alt="github" className="w-[40px] h-[40px]" />
+          </div>
         </div>
       </div>
     </div>
