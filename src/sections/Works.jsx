@@ -38,14 +38,12 @@ const LatestWorks = () => {
       <div className="w-full max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="text-sm uppercase tracking-wide text-purple-600 font-semibold">
+          <span className="text-sm uppercase tracking-wide font-semibold">
             Portfolio Showcase
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold mt-2">
-            My{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">
-              Latest Projects
-            </span>
+            My Work
+
           </h2>
         </div>
 
@@ -54,7 +52,7 @@ const LatestWorks = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group relative  p-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:border-transparent hover:bg-gradient-to-br from-purple-50 to-pink-50 dark:hover:from-purple-800/20 dark:hover:to-pink-800/20"
+              className="group relative  p-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100  "
             >
               {/* Image */}
               <div className="overflow-hidden rounded-xl mb-5">
@@ -70,7 +68,7 @@ const LatestWorks = () => {
                 {project.tags.map((tag, i) => (
                   <span
                     key={i}
-                    className="text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full dark:bg-purple-900/40 dark:text-purple-300"
+                    className="text-base font-light"
                   >
                     {tag}
                   </span>
@@ -78,10 +76,10 @@ const LatestWorks = () => {
               </div>
 
               {/* Title & Description */}
-              <h3 className="text-xl font-bold mb-3 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+              <h3 className="text-xl font-bold mb-">
                 {project.title}
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
+              <p className=" text-sm mb-4">
                 {project.description}
               </p>
             </div>
