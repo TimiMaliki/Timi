@@ -1,11 +1,8 @@
-import { useState } from "react";
 import Buttons from "../components/buttons";
 import { FaArrowDown } from "react-icons/fa";
 import rwd from "../img/achievement/responsiveWebDesign.png";
 
 const Achievement = () => {
-    const [readMore, setReadMore] = useState(false);
-
     return (
         <div className="w-full ">
   {/* Achievement Section */}
@@ -72,7 +69,7 @@ const Achievement = () => {
               </li>
             </ul>
             <p className="">
-              <strong>Download Certification:</strong> <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"} textColor={""} icons={<FaArrowDown  className="w-5 h-5 mt-1 "/>} text={"Certificaion"}/>
+              <strong>Download Certification:</strong> <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"} textColor={""} icons={<FaArrowDown  className="w-5 h-5 mt-1 "/>} text={"Document"} doc={rwd}/>
             </p>
 
           </div>

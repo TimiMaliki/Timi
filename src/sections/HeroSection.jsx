@@ -1,6 +1,7 @@
 import {ArrowRightIcon } from "@heroicons/react/24/solid";
 import Buttons from "../components/buttons";
 import myPic from "../img/pexels-almustapha-adam-1663967297-30159714.jpg";
+import resume from "../resume/Timi.pdf"
 import { FaDownload} from "react-icons/fa";
 
 const Hero = () => {
@@ -33,7 +34,7 @@ const Hero = () => {
 
       <div className="btns flex justify-center gap-2">
         <Buttons color={"bg-black"} textColor={"text-white"} icons={<ArrowRightIcon className="w-5 h-5 mt-1"/>} text={"contact me"}/>
-        <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"} textColor={""} icons={<FaDownload  className="w-5 h-5 mt-1 "/>} text={"my resume"}/>
+        <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"} textColor={""} icons={<FaDownload  className="w-5 h-5 mt-1 "/>} text={"my resume"} doc={resume}/>
       </div>
     </div>
   );
