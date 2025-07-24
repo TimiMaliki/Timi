@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaAlignRight, FaGithub } from "react-icons/fa";
 import {
-  Bars3Icon,
   MoonIcon,
   SunIcon,
   XMarkIcon,
@@ -86,7 +85,7 @@ const Navbar = () => {
           {open ? (
             <XMarkIcon className="w-8 h-8 text-slate-700" />
           ) : (
-            <Bars3Icon className="w-8 h-8 text-slate-700" />
+            <FaAlignRight className="w-8 h-8 text-slate-700" />
           )}
         </button>
       </div>
