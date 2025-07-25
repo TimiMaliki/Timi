@@ -1,16 +1,23 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import dance from "../img/projects/dance-blog/Screenshot from 2025-04-23 02-37-35.png"
+
+
+// Html , Css , Others projects
 import food from "../img/projects/food-recipes/Screenshot from 2025-04-23 02-29-56.png"
 import hospital from "../img/projects/hospital/Screenshot from 2024-12-27 21-52-57.png"
 import  van from "../img/display-works/van.png"
-import light from "../img/projects/light/2.png"
 import vid from "../img/projects/vid-call/Screenshot from 2025-04-23 02-22-29.png"
-import test from "../img/projects/knowledge/5.png"
 import skin from "../img/projects/skin-care/Screenshot from 2025-04-23 02-33-04.png"
 import women from "../img/projects/women-fashion/Screenshot from 2025-04-23 03-13-29.png"
+import tasty from "../img/projects/food/Screenshot from 2025-07-25 20-00-47.png"
+
+
+// React projects
+import light from "../img/projects/light/2.png"
+import dance from "../img/projects/dance-blog/Screenshot from 2025-04-23 02-37-35.png"
 import woof from "../img/projects/woof/1.png"
 import bright from "../img/projects/brightburn/Screenshot from 2025-07-25 17-19-48.png"
+import test from "../img/projects/knowledge/5.png"
 
 // javaScript projects
 import CountryAPI from "../img/projects/JavaScript/js1.png"
@@ -18,6 +25,10 @@ import CurrencyAPI from "../img/projects/JavaScript/js2.png"
 import JokeAPI from "../img/projects/JavaScript/js3.png"
 import Dwords from "../img/projects/JavaScript/js4.png"
 import todo from "../img/projects/JavaScript/js5.png"
+import bg from "../img/projects/JavaScript/js6.png"
+import clock from "../img/projects/JavaScript/js7.png"
+import modal from "../img/projects/JavaScript/js8.png"
+import cart from "../img/projects/JavaScript/js9.png"
 
 const projectsData = [
   {
@@ -122,7 +133,7 @@ const projectsData = [
 
   {
     id: 12,
-    title: "Countries Info",
+    title: "Countries Info API",
     description: "Konw more about a specific country.",
     image: CountryAPI,
     category:"JavaScript",
@@ -132,7 +143,7 @@ const projectsData = [
 
   {
     id: 13,
-    title: "Currency Converter",
+    title: "Currency Converter API",
     description: "convert your currency to any country.",
     image: CurrencyAPI,
     category:"JavaScript",
@@ -141,7 +152,7 @@ const projectsData = [
   },
   {
     id: 14,
-    title: "JokeAPI",
+    title: "Joke API",
     description: "A Generated Joke API.",
     image: JokeAPI,
     category:"JavaScript",
@@ -167,12 +178,66 @@ const projectsData = [
     tags: ["Html", "Css","JavaScript"],
     link : "https://todo-app-javascript-2024.vercel.app/"
   },
-
+  {
+    id: 17,
+    title: "Background changer",
+    description: "A simple background changer.",
+    image: bg,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "https://background-color-generator-javascript-2024.vercel.app/"
+  },
+  {
+    id: 18,
+    title: "A Clock App",
+    description: "A simple 24 hours switch clock.",
+    image: clock,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "https://clock-app-delta-two.vercel.app/"
+  },
+  {
+    id: 19,
+    title: "A Simple Modal App",
+    description: "A Simple Modal App.",
+    image: modal,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "https://modal-window-java-script.vercel.app/"
+  },
+  {
+    id: 20,
+    title: "Product Cart",
+    description: "Art Merch product.",
+    image: cart,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "https://art-merch-shopping-cart-js.vercel.app/"
+  },
+  {
+    id: 21,
+    title: "Tasty Food",
+    description: "Food that makes you salivate.",
+    image: tasty,
+    category:"Html and Css",
+    tags: ["Html", "Css","JavaScript"],
+    link : "http://food-beige-psi.vercel.app/"
+  },
+  {
+    id: 22,
+    title: "Beats 3",
+    description: "Food for the soul.",
+    image: tasty,
+    category:"Html and Css",
+    tags: ["Html", "Css","JavaScript"],
+    link : "http://music-nu-three.vercel.app/"
+  },
 ];
 
 // Filter options
 const filters = [
   { id: "all", label: "All" },
+  { id: "Html and Css", label: "Html and Css" },
   { id: "Bootstrap", label: "Bootstrap" },
   { id: "TailwindCss", label: "TailwindCss" },
   { id: "JavaScript", label: "JavaScript" },
