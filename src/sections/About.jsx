@@ -11,10 +11,10 @@ import Header from "../component/Headers";
 
 const AboutMe = () => {
   return (
-    <div className="max-w-7xl grid place-content-center mx-auto w-full py-24">
+    <div className="max-w-7xl grid place-content-center mx-auto w-full py-24" id="about">
     <Header intro={"Introduction"} title={"About me"}/>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 ">
-        <div className="profile-picture mb-4">
+        <div className="profile-picture mb-4 p-5 md:p-0">
           <img
             src={profilePicture}
             alt="profilepicture"
@@ -24,14 +24,14 @@ const AboutMe = () => {
 
         <div className="w-full details ovo-regular">
           <div className="intro">
-            <h4 className="md:p-5 text-base font-semibold">
+            <h4 className=" p-5 md:p-5 text-base font-semibold">
             With 5 years of professional experience as a Frontend Developer,
              I’ve had the privilege of working alongside talented teams to build impactful digital products.
              My focus has always been on creating clean, responsive, and user-friendly interfaces that contribute to business success and user satisfaction.
             </h4>
           </div>
           <div className="w-full details-about  md:flex md:justify-center gap-2 md:gap-4">
-            <div className="card-one">
+            <div className="card-one p-5 md:p-0">
               <Card
                 icon={lang}
                 header={"Languages"}
@@ -41,7 +41,7 @@ const AboutMe = () => {
               />
             </div>
 
-            <div className="card-two">
+            <div className="card-two p-5 md:p-0">
               <Card
                 icon={edu}
                 header={"Education"}
@@ -53,7 +53,7 @@ const AboutMe = () => {
               />
             </div>
 
-            <div className="card-three">
+            <div className="card-three p-5 md:p-0">
               <Card
                 icon={project}
                 header={"Experience"}
@@ -66,11 +66,11 @@ const AboutMe = () => {
         </div>
       </div>
 
-      <div className="tools py-10 ovo-regular">
-        <div className="intro flex justify-center text-center p-9">
+      <div className="tools py-0 md:py-10 ovo-regular">
+        <div className="intro flex justify-center text-center  p-9">
           <h2 className="text-lg font-medium">Tools I use</h2>
         </div>
-        <div className="tools-box grid md:flex md:justify-center gap-4">
+        <div className="tools-box flex justify-center md:flex md:justify-center gap-4">
         <div className="box-one rounded-lg border  w-[60px] h-[60px] flex align-middle justify-center text-center p-2 shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]">
             <img src={vscode} alt="github" className="w-[40px] h-[40px]" />
           </div>

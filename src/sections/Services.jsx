@@ -7,15 +7,15 @@ import gallery from "../img/tool/gallery_833281.png";
 
 const Services = () => {
     return ( 
-        <div className="max-w-7xl grid place-content-center mx-auto w-full py-8 ovo-regular">
+        <div className="max-w-7xl grid place-content-center mx-auto w-full py-8 ovo-regular" id="service">
             <Header intro={"What I offer"} title={"My Services"}/>
             <div className="text-center">
-                <h2 className="text-xl">
+                <h2 className="text-xl p-5 md:p-0">
             "I aim to contribute to the success of your company by <br /> leveraging my technical skills and problem-solving mindset to build impactful web solutions."
                 </h2>
             </div>
 
-            <div className="cards grid grid-cols-4 gap-4 py-7">
+            <div className="cards grid md:grid-cols-4 grid-cols-1 gap-4 md:p-0 p-5 py-7">
             <div className="card-one">
             <Card
                 icon={webDesign}

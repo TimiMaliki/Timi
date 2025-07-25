@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       <div className="btns flex justify-center gap-2">
-        <Buttons color={"bg-black"} textColor={"text-white"} icons={<ArrowRightIcon className="w-5 h-5 mt-1"/>} text={"contact me"}/>
+        <Buttons color={"bg-black"} textColor={"text-white"} icons={<ArrowRightIcon className="w-5 h-5 mt-1"/>} text={"contact me"} doc={"https://wa.me/qr/RJYG6ACYJUUGB1"}/>
         <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"} textColor={""} icons={<FaDownload  className="w-5 h-5 mt-1 "/>} text={"my resume"} doc={resume}/>
       </div>
     </div>

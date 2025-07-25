@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 
 // Html , Css , Others projects
@@ -288,8 +288,8 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20  px-4">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mt-10 mb-4">Pet Projects</h2>
-        <p className="text-lg mb-12">My Little Achievements</p>
+        <h2 className="text-4xl font-bold mt-10 mb-4">Passion Projects</h2>
+        <p className="text-lg mb-12">A glimpse into the work I’m proud of</p>
 
         {/* Filters */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">
@@ -333,7 +333,7 @@ const Projects = () => {
                 <h3 className="text-lg font-bold  group-hover:text-blue-600 transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-sm  text-black">{project.description}</p>
+                <p className="text-sm">{project.description}</p>
 
                 <div className="flex flex-wrap gap-2 mt-3">
                   {project.tags.map((tag) => (
@@ -368,7 +368,7 @@ const Projects = () => {
                   ? "bg-blue-600 shadow"
                   : " hover:bg-purple-50 border border-gray-200"
               }`}
-            >
+            >   
               {page}
             </button>
           ))}

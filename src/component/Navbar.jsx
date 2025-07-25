@@ -5,15 +5,17 @@ import {
   SunIcon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const brandName = "Timi.";
   const links = [
     { name: "Home", href: "/" },
-    { name: "About me", href: "/" },
-    { name: "Little Achievements", href: "/" },
-    { name: "My Work", href: "/" },
-    { name: "Contact me", href: "/" },
+    { name: "About me", href: "#about" },
+    { name: "Little Achievements", href: "#achievement" },
+    { name: "My Work", href: "#work" },
+    { name: "Service", href: "#service" },
+    { name: "Contact me", href: "#contact" },
   ];
 
   const [open, isOpen] = useState(false);
@@ -32,9 +34,13 @@ const Navbar = () => {
     }
   }, [darkMode]);
 
+  useEffect(() => {
+    document.documentElement.style.scrollBehavior = "smooth";
+  }, []);
+
   return (
     <nav
-      className={`absolute top-0 left-0  w-full z-50 ${
+      className={`sticky top-0 left-0  w-full z-50 ${
         darkMode ? "bg-black text-white" : "bg-white text-black"
       }`}
     >
@@ -42,9 +48,12 @@ const Navbar = () => {
         {/* Desktop view */}
 
         {/* my name */}
+        <Link to={"/"}>
         <div className={`brand text-2xl ovo-regular font-semibold ${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""} cursor-pointer`}>
           {brandName}
         </div>
+        </Link>
+       
         {/* ------------------Nav Links -------------------*/}
         <div className="hidden md:flex ovo-regular justify-center space-x-8 border border-slate-50 px-7 p-4 rounded-full shadow-[0px_1px_4px_rgba(0,0,0,0.16)]">
           {links.map((nav, index) => (

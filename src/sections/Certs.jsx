@@ -9,11 +9,11 @@ import adp from "../img/achievement/1000-mentorship-minutes.pdf";
 
 const Achievement = () => {
   return (
-    <div className="w-full ">
+    <div className="w-full" id="achievement">
       {/* Achievement Section */}
-      <div className="relative py-20 px-4 lg:px-8 overflow-hidden ovo-regular">
+      <div className="relative py-4 md:py-20 px-4 lg:px-8 overflow-hidden ovo-regular">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl lg:text-6xl font-extrabold mb-6">
+          <h1 className="text-4xl lg:text-6xl font-extrabold mb-6 p-3 md:p-0">
             My Little Achievements
           </h1>
           <p className="text-xl lg:text-2xl  max-w-4xl mx-auto">
@@ -23,7 +23,7 @@ const Achievement = () => {
       </div>
 
       {/* Process Timeline */}
-      <div className="max-w-7xl mx-auto py-16 px-4 lg:px-8">
+      <div className="max-w-7xl mx-auto py-4 md:py-16 px-4 lg:px-8">
         <div className="relative">
           {/* Timeline Line */}
           {/* <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-300 to-pink-300 -ml-px"></div> */}

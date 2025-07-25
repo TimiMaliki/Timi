@@ -10,8 +10,8 @@ const HomePage = () => {
         <Hero/>
         <About/>
         <Achievement/>
-        <Services/>
         <LatestWorks/>
+        <Services/>
         </>
      );
 }

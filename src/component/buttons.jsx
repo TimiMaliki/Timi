@@ -1,4 +1,4 @@
-const Buttons = ({ icons, text, color, textColor , doc }) => {
+const Buttons = ({ icons, text, color, textColor , doc  }) => {
     return (
       <button
         className={` px-3 py-3 md:px-6 md:py-3 ovo-regular rounded-full  gap-4 ${color} ${textColor}`}

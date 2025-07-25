@@ -36,10 +36,10 @@ const LatestWorks = () => {
   ];
 
   return (
-    <section className="py-20 ovo-regular">
+    <section className="py-20 ovo-regular" id="work">
       <div className="w-full max-w-7xl mx-auto px-6">
         {/* Header */}
-        <Header intro={"Portfolio showcase"} title={"My Work"}/>
+        <Header intro={"Portfolio showcase"} title={"My Work"} id=""/>
         {/* Projects Grid */}
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3 text-black">
           {projects.map((project, index) => (
