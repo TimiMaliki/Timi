@@ -37,7 +37,7 @@ const projectsData = [
   {
     id: 1,
     title: "Blog Platform",
-    description: "A blogging platform with admin dashboard and SEO optimization.",
+    description: "A blogging platform for bloggers.",
     image: light,
     category: "ReactJs",
     tags: ["ReactJs", "TailwindCss"],
@@ -46,7 +46,7 @@ const projectsData = [
   {
     id: 2,
     title: "Food Recipe API",
-    description: "An Food recipe api landing page API.",
+    description: "A Food Recipe API.",
     image: food,
     category: "Bootstrap",
     tags: ["Html", "Css" , "Bootstrap"],
@@ -316,7 +316,7 @@ const Projects = () => {
           {currentProjects.map((project) => (
             <div
               key={project.id}
-              className="group relative  backdrop-blur-xl border border-gray-100 dark:border-slate-700 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
+              className="group relative  border border-gray-100 dark:border-slate-700 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
             >
               <div className="overflow-hidden h-56">
                 <img
@@ -333,7 +333,7 @@ const Projects = () => {
                 <h3 className="text-lg font-bold  group-hover:text-blue-600 transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-sm ">{project.description}</p>
+                <p className="text-sm  text-black">{project.description}</p>
 
                 <div className="flex flex-wrap gap-2 mt-3">
                   {project.tags.map((tag) => (
