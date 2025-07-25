@@ -10,6 +10,7 @@ import vid from "../img/projects/vid-call/Screenshot from 2025-04-23 02-22-29.pn
 import skin from "../img/projects/skin-care/Screenshot from 2025-04-23 02-33-04.png"
 import women from "../img/projects/women-fashion/Screenshot from 2025-04-23 03-13-29.png"
 import tasty from "../img/projects/food/Screenshot from 2025-07-25 20-00-47.png"
+import music from "../img/projects/music/Screenshot from 2025-07-25 20-06-48.png"
 
 
 // React projects
@@ -29,6 +30,8 @@ import bg from "../img/projects/JavaScript/js6.png"
 import clock from "../img/projects/JavaScript/js7.png"
 import modal from "../img/projects/JavaScript/js8.png"
 import cart from "../img/projects/JavaScript/js9.png"
+import age from "../img/projects/JavaScript/js10.png"
+import rem from "../img/projects/JavaScript/js11.png"
 
 const projectsData = [
   {
@@ -227,11 +230,30 @@ const projectsData = [
     id: 22,
     title: "Beats 3",
     description: "Food for the soul.",
-    image: tasty,
+    image: music,
     category:"Html and Css",
     tags: ["Html", "Css","JavaScript"],
     link : "http://music-nu-three.vercel.app/"
   },
+  {
+    id: 23,
+    title: "Age Calculator",
+    description: "Calculate your age.",
+    image: age,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "http://music-nu-three.vercel.app/"
+  },
+  {
+    id: 24,
+    title: "A Rem to Px converter",
+    description: "Convert your Rem values to Px",
+    image: rem,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "https://github.com/TimiMaliki/20-javaScript-Projects/tree/master/FrontEnd-portfolio/JavaScript/20)%20REM-PX-Converter"
+  },
+  
 ];
 
 // Filter options
