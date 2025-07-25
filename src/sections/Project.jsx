@@ -12,6 +12,13 @@ import women from "../img/projects/women-fashion/Screenshot from 2025-04-23 03-1
 import woof from "../img/projects/woof/1.png"
 import bright from "../img/projects/brightburn/Screenshot from 2025-07-25 17-19-48.png"
 
+// javaScript projects
+import CountryAPI from "../img/projects/JavaScript/js1.png"
+import CurrencyAPI from "../img/projects/JavaScript/js2.png"
+import JokeAPI from "../img/projects/JavaScript/js3.png"
+import Dwords from "../img/projects/JavaScript/js4.png"
+import todo from "../img/projects/JavaScript/js5.png"
+
 const projectsData = [
   {
     id: 1,
@@ -86,19 +93,22 @@ const projectsData = [
   },
   {
     id: 9,
-    title: "",
-    description: "A blogging platform with admin dashboard and SEO optimization.",
+    title: "X Fashion",
+    description: "Fashion Products.",
     image: women,
     category: "TailwindCss",
     tags: ["Html", "Css", "TailwindCss"],
+    link : "https://maliki-fashion-ecommerce.vercel.app/"
   },
   {
     id: 10,
-    title: "Blog Platform",
-    description: "A blogging platform with admin dashboard and SEO optimization.",
+    title: "Van Marjoli",
+    description: "Get your cute dogs in Belgiium.",
     image: van,
     category: "Wixx",
     tags: ["Wixx"],
+    link : "https://www.vanmarjoli.be/"
+    
   },
   {
     id: 11,
@@ -110,6 +120,53 @@ const projectsData = [
     link : "https://maliki-dance-blog-2024.vercel.app/"
   },
 
+  {
+    id: 12,
+    title: "Countries Info",
+    description: "Konw more about a specific country.",
+    image: CountryAPI,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "https://country-guide-api-js.vercel.app/"
+  },
+
+  {
+    id: 13,
+    title: "Currency Converter",
+    description: "convert your currency to any country.",
+    image: CurrencyAPI,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "https://currency-converter-api-js.vercel.app/"
+  },
+  {
+    id: 14,
+    title: "JokeAPI",
+    description: "A Generated Joke API.",
+    image: JokeAPI,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "https://meme-api-app.vercel.app/"
+  },
+
+  {
+    id: 15,
+    title: "Dictionary API",
+    description: "A Generated Joke API.",
+    image: Dwords,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "https://dictionary-api-js.vercel.app/"
+  },
+  {
+    id: 16,
+    title: "Todo App",
+    description: "A task list App.",
+    image: todo,
+    category:"JavaScript",
+    tags: ["Html", "Css","JavaScript"],
+    link : "https://todo-app-javascript-2024.vercel.app/"
+  },
 
 ];
 
