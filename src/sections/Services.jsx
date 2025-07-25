@@ -1,5 +1,5 @@
-import Header from "../components/Headers";
-import Card from "../components/card";
+import Header from "../component/Headers";
+import Card from "../component/card";
 import webDesign from "../img/tool/globe_10747502.png";
 import teaching from "../img/tool/teacher_9721094.png";
 import behance from "../img/tool/social-media_14417430.png";

@@ -1,22 +1,14 @@
-import './App.css';
-import AboutMe from './sections/About';
-import Achievement from './sections/Certs';
-import Hero from './sections/HeroSection';
-import Navbar from './sections/Navbar';
-import Services from './sections/Services';
-import LatestWorks from './sections/Works';
+import Router from "./Router/Router";
 
-function App() {
-  return (
+
+const App = () => {
+  const router = createBrowserRouter(Router);
+
+  return ( 
     <>
-      <Navbar/>
-      <Hero/>
-      <AboutMe/>
-      <Achievement/>
-      <Services/>
-      <LatestWorks/>
+    <RouterProvider router={router} />
     </>
-  );
+   );
 }
-
+ 
 export default App;

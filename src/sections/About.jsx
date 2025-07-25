@@ -1,4 +1,4 @@
-import Card from "../components/card";
+import Card from "../component/card";
 import profilePicture from "../img/pexels-almustapha-adam-1663967297-30159714.jpg";
 import lang from "../img/about-me/program_16632872.png";
 import edu from "../img/about-me/mortarboard_114806.png";
@@ -7,7 +7,7 @@ import github from "../img/tool/git_2111423.png";
 import figma from "../img/tool/figma_5968704.png";
 import stackOverflow from "../img/tool/stack_13651023.png";
 import vscode from "../img/tool/visual-basic_5968571.png";
-import Header from "../components/Headers";
+import Header from "../component/Headers";
 
 const AboutMe = () => {
   return (

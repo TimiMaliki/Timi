@@ -1,4 +1,4 @@
-import Buttons from "../components/buttons";
+import Buttons from "../component/buttons";
 import { FaArrowDown } from "react-icons/fa";
 import rwd from "../img/achievement/responsiveWebDesign.png";
 import Js from "../img/achievement/JavaScript.png";

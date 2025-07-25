@@ -1,6 +1,6 @@
 import {FaArrowAltCircleRight } from "react-icons/fa";
-import Buttons from "../components/buttons";
-import Header from "../components/Headers";
+import Buttons from "../component/buttons";
+import Header from "../component/Headers";
 import { Link } from "react-router-dom";
 
 const LatestWorks = () => {
@@ -75,7 +75,7 @@ const LatestWorks = () => {
         </div>
 
         <div className="flex justify-center align-middle py-8">
-            <Link>
+            <Link to="/projects">
             <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"} textColor={""} icons={<FaArrowAltCircleRight  className="w-5 h-5 mt-1 "/>} text={"view more"} />
             </Link>
         </div>
