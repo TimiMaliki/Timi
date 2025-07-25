@@ -25,10 +25,9 @@ const AboutMe = () => {
         <div className="w-full details ovo-regular">
           <div className="intro">
             <h4 className="md:p-5 text-base font-semibold">
-              I am an experienced Frontend Developer with 5 years of
-              professional expertise in the field. Throughout my career. I have
-              had the priviledge of collaborating with skilled individuals ,
-              contributing to their success and growth.
+            With 5 years of professional experience as a Frontend Developer,
+             I’ve had the privilege of working alongside talented teams to build impactful digital products.
+             My focus has always been on creating clean, responsive, and user-friendly interfaces that contribute to business success and user satisfaction.
             </h4>
           </div>
           <div className="w-full details-about  md:flex md:justify-center gap-2 md:gap-4">

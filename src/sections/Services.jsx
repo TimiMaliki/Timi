@@ -21,10 +21,11 @@ const Services = () => {
                 icon={webDesign}
                 header={"Web design"}
                 text={
-                  "Web development is the process of building"
+                  "I craft beautiful, user-friendly websites that not only look great but actually work. Think sleek layouts, smooth navigation, and a sprinkle of magic to keep your users hooked."
                 }
                 readmore={"readmore"}
-                more={""}
+                more={`I design clean, responsive, and user-centered websites that align with your 
+                brand and business goals. My focus is on creating intuitive layouts and seamless experiences that engage users and drive results.`}
               />
             </div>
 
@@ -34,10 +35,14 @@ const Services = () => {
                 icon={teaching}
                 header={"Teaching"}
                 text={
-                  "BSc in Computer Engineering Michael Okpara University of Agriculture Umudike , Nigeria"
+                  `Beyond development, I’m passionate about sharing knowledge.`
                 }
                 readmore={"readmore"}
-                more={"CGPA - 3.54"}
+                more={`
+                I enjoy mentoring junior developers, 
+                  simplifying complex concepts, and fostering growth within teams. Whether through pair programming, documentation, or training sessions, 
+                  I believe teaching is a powerful way to reinforce collaboration and drive collective success
+                `}
               />
             </div>
 
@@ -47,10 +52,11 @@ const Services = () => {
                 icon={behance}
                 header={"UI/UX"}
                 text={
-                  "UI/UX design focuses on creating a seamless user experience"
+                  "I care a lot about how things look and feel. I design clean, user-friendly interfaces that make websites easy to use and enjoyable to navigate."
                 }
                 readmore={"readmore"}
-                more={""}
+                more={`With a deep understanding of UI/UX principles, I craft user interfaces that are not only visually 
+                engaging but also highly functional—ensuring seamless, accessible, and intuitive experiences across all devices`}
               />
             </div>
 
@@ -61,10 +67,10 @@ const Services = () => {
                 icon={gallery}
                 header={"Graphics design"}
                 text={
-                  "Creative design solutions to enhance virtual communiction"
+                  "I also create eye-catching graphics—from social media posts to brand assets—that help your message stand out and leave a lasting impression"
                 }
                 readmore={"readmore"}
-                more={""}
+                more={"Need cool visuals? I whip up scroll-stopping designs that make your brand pop and your audience say ‘wow!"}
               />
             </div>
 
