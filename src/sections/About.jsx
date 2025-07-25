@@ -38,7 +38,7 @@ const AboutMe = () => {
                 header={"Languages"}
                 text={"Html, Css, JavaScript, ReactJs, NextJs"}
                 readmore={"readmore"}
-                more={"TailwindCss , BootStrap,WordPress,Wixx"}
+                more={"TailwindCss , BootStrap,WordPress,Wixx,GSAP , Firebase"}
               />
             </div>
 

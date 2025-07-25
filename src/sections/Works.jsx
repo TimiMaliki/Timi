@@ -2,6 +2,9 @@ import {FaArrowAltCircleRight } from "react-icons/fa";
 import Buttons from "../component/buttons";
 import Header from "../component/Headers";
 import { Link } from "react-router-dom";
+import hospital from "../img/projects/hospital/Screenshot from 2025-04-23 03-05-54.png"
+import women from "../img/projects/women-fashion/Screenshot from 2025-04-23 03-12-04.png"
+import light from "../img/projects/light/41.png"
 
 const LatestWorks = () => {
   const projects = [
@@ -9,9 +12,8 @@ const LatestWorks = () => {
       title: "Jobbazar - AI-Powered Job Platform",
       description:
         "Revolutionized job searching with machine learning algorithms that match candidates to ideal positions. Built with React, Node.js, and MongoDB, featuring real-time notifications and advanced filtering.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      tags: ["React", "Node.js", "MongoDB", "AI Matching"],
+      image:hospital,
+      tags: ["Html", "Css", "Bootstrap"],
       year: "2023",
       link: "/projects/jobbazar",
     },
@@ -19,9 +21,8 @@ const LatestWorks = () => {
       title: "Slepp - Social Media for Professionals",
       description:
         "Created a LinkedIn alternative focused on authentic professional connections. Implemented WebSockets for real-time messaging, custom analytics dashboards, and secure authentication flow.",
-      image:
-        "https://cdn.easyfrontend.com/pictures/portfolio/portfolio16_2.png",
-      tags: ["Next.js", "Firebase", "Tailwind CSS", "Web Sockets"],
+      image:women,
+      tags: ["Html", "Css", "TailwindCss"],
       year: "2022",
       link: "/projects/slepp",
     },
@@ -29,9 +30,8 @@ const LatestWorks = () => {
       title: "Costa - Restaurant Management System",
       description:
         "End-to-end solution for restaurant operations including inventory, POS, and customer loyalty programs. Reduced order processing time by 40% with optimized workflows.",
-      image:
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      tags: ["React Native", "GraphQL", "Django", "Payment Processing"],
+      image: light,
+      tags: ["ReactJs", "TailwindCss"],
       year: "2023",
       link: "/projects/costa",
     },

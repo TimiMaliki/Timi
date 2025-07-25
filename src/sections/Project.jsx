@@ -10,100 +10,119 @@ import test from "../img/projects/knowledge/5.png"
 import skin from "../img/projects/skin-care/Screenshot from 2025-04-23 02-33-04.png"
 import women from "../img/projects/women-fashion/Screenshot from 2025-04-23 03-13-29.png"
 import woof from "../img/projects/woof/1.png"
+import bright from "../img/projects/brightburn/Screenshot from 2025-07-25 17-19-48.png"
+
 const projectsData = [
   {
     id: 1,
-    title: "A Dance Blog",
-    description: "A modern admin dashboard with analytics and inventory control.",
-    image: dance,
-    category: "Dashboard",
-    tags: ["React", "Tailwind", "Chart.js"],
-  },
-  {
-    id: 2,
-    title: "Creative Portfolio Website",
-    description: "Personal branding website with smooth animations and filtering.",
-    image: food,
-    category: "Website",
-    tags: ["GSAP", "React", "Tailwind"],
-  },
-  {
-    id: 3,
-    title: "Car Service Booking App",
-    description: "Responsive car service app with booking and tracking features.",
-    image: hospital,
-    category: "Mobile App",
-    tags: ["React Native", "Firebase"],
-  },
-  {
-    id: 4,
     title: "Blog Platform",
     description: "A blogging platform with admin dashboard and SEO optimization.",
     image: light,
-    category: "Web App",
-    tags: ["React", "Node.js", "MongoDB"],
+    category: "ReactJs",
+    tags: ["ReactJs", "TailwindCss"],
+    link : "https://lightrun.vercel.app"
+  },
+  {
+    id: 2,
+    title: "Food Recipe API",
+    description: "An Food recipe api landing page API.",
+    image: food,
+    category: "Bootstrap",
+    tags: ["Html", "Css" , "Bootstrap"],
+    link : "https://food-recipe-api-landingpage.vercel.app/"
+  },
+  {
+    id: 3,
+    title: "Dental Hospital landing page",
+    description: "A Dental Hospital minimal , clean landing page.",
+    image: hospital,
+    category: "Bootstrap",
+    tags: ["Html", "Css" , "Bootstrap"],
+    link : "https://dental-clinic-landing-page-ten.vercel.app/"
+  },
+  {
+    id: 4,
+    title: "SAAS",
+    description: "A Website Business Service.",
+    image: bright,
+    category: "ReactJs",
+    tags: ["Reactjs", "Tailwindcss", "Swiper Js"],
   },
   {
     id: 5,
-    title: "Blog Platform",
-    description: "A blogging platform with admin dashboard and SEO optimization.",
-    image: van,
-    category: "Web App",
-    tags: ["React", "Node.js", "MongoDB"],
+    title: "Woofipidia",
+    description: "A Dog API - Know more about your breed.",
+    image: woof,
+    category: "ReactJs",
+    tags: ["Reactjs", "Tailwindcss", "Dog API"],
+    link : "https:// woofipedia.vercel.app"
   },
   {
     id: 6,
-    title: "Blog Platform",
-    description: "A blogging platform with admin dashboard and SEO optimization.",
+    title: "A Student Video Conference",
+    description: "A Student Video Conference Landing page.",
     image: vid,
-    category: "Web App",
-    tags: ["React", "Node.js", "MongoDB"],
+    category: "Bootstrap",
+    tags: ["Html", "Css", "Bootstrap"],
+    link : "https://video-chat-landing-page.vercel.app/"
   },
   {
     id: 7,
-    title: "Blog Platform",
-    description: "A blogging platform with admin dashboard and SEO optimization.",
+    title: "Pop Quiz",
+    description: "A test of general knowlegde.",
     image: test,
-    category: "Web App",
-    tags: ["React", "Node.js", "MongoDB"],
+    category: "ReactJs",
+    tags: ["ReactJs", "TailwindCss"],
+    link : "https://knowledgeidk.vercel.app/ "
   },
   {
     id: 8,
-    title: "Blog Platform",
-    description: "A blogging platform with admin dashboard and SEO optimization.",
+    title: "Skin Glow",
+    description: "A Perfect Skin Care Routine for women.",
     image: skin,
-    category: "Web App",
-    tags: ["React", "Node.js", "MongoDB"],
+    category: "GSAP",
+    tags: ["Html", "Css", "GSAP"],
+    link : "https://product-landingpage-gsap.vercel.app/"
   },
   {
     id: 9,
-    title: "Blog Platform",
+    title: "",
     description: "A blogging platform with admin dashboard and SEO optimization.",
     image: women,
-    category: "Web App",
-    tags: ["React", "Node.js", "MongoDB"],
+    category: "TailwindCss",
+    tags: ["Html", "Css", "TailwindCss"],
   },
   {
     id: 10,
     title: "Blog Platform",
     description: "A blogging platform with admin dashboard and SEO optimization.",
-    image: woof,
-    category: "Reactjs",
-    tags: ["Reactjs", "Tailwindcss", "Dog API"],
+    image: van,
+    category: "Wixx",
+    tags: ["Wixx"],
   },
+  {
+    id: 11,
+    title: "Dance Blog",
+    description: "A Creative Blogger site.",
+    image: dance,
+    category:"ReactJs",
+    tags: ["ReactJs", "Tailwind"],
+    link : "https://maliki-dance-blog-2024.vercel.app/"
+  },
+
 
 ];
 
 // Filter options
 const filters = [
   { id: "all", label: "All" },
-  { id: "Html and Css", label: "Html and Css" },
   { id: "Bootstrap", label: "Bootstrap" },
   { id: "TailwindCss", label: "TailwindCss" },
   { id: "JavaScript", label: "JavaScript" },
-  { id: "Reactjs", label: "Reactjs" },
+  { id: "ReactJs", label: "ReactJs" },
   { id: "Nextjs", label: "Nextjs" },
   { id: "Wixx", label: "Wixx" },
+  { id: "GSAP", label: "GSAP" },
 ];
 
 const Projects = () => {
@@ -125,7 +144,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20  px-4">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mt-10 mb-4">Projects</h2>
+        <h2 className="text-4xl font-bold mt-10 mb-4">Pet Projects</h2>
         <p className="text-lg mb-12">My Little Achievements</p>
 
         {/* Filters */}
@@ -139,8 +158,8 @@ const Projects = () => {
               }}
               className={`px-5 py-2 rounded-full text-sm font-medium border transition-all duration-300 ${
                 activeFilter === filter.id
-                  ? "bg-white text-purple-600 border-purple-500 shadow-sm"
-                  : "bg-gray-50 text-gray-600 border-gray-200 hover:border-purple-300"
+                  ? "bg-white text-blue-600 border-blue-500 shadow-sm"
+                  : "bg-gray-50 text-black border-gray-200 hover:border-blue-300"
               }`}
             >
               {filter.label}
@@ -167,7 +186,7 @@ const Projects = () => {
                 <span className="text-xs uppercase tracking-wider">
                   {project.category}
                 </span>
-                <h3 className="text-lg font-bold  group-hover:text-purple-600 transition-colors">
+                <h3 className="text-lg font-bold  group-hover:text-blue-600 transition-colors">
                   {project.title}
                 </h3>
                 <p className="text-sm ">{project.description}</p>
@@ -176,7 +195,7 @@ const Projects = () => {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs px-2 py-1 bg-purple-50 text-purple-600 rounded-full"
+                      className="text-xs px-2 py-1  bg-blue-500  rounded-full"
                     >
                       {tag}
                     </span>
@@ -184,8 +203,8 @@ const Projects = () => {
                 </div>
 
                 <Link
-                  to={`/works/${project.id}`}
-                  className="mt-4 inline-flex items-center text-sm font-medium text-purple-600 hover:underline"
+                  to={`${project.link}`}
+                  className="mt-4 inline-flex items-center text-sm font-medium text-blue-600 hover:underline"
                 >
                   View Case Study →
                 </Link>
@@ -202,8 +221,8 @@ const Projects = () => {
               onClick={() => setCurrentPage(page)}
               className={`w-10 h-10 rounded-full flex items-center justify-center font-medium text-sm transition-colors ${
                 currentPage === page
-                  ? "bg-purple-600 text-white shadow"
-                  : "bg-white hover:bg-purple-50 border border-gray-200"
+                  ? "bg-blue-600 shadow"
+                  : " hover:bg-purple-50 border border-gray-200"
               }`}
             >
               {page}
