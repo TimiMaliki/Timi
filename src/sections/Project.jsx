@@ -36,7 +36,7 @@ import rem from "../img/projects/JavaScript/js11.png"
 const projectsData = [
   {
     id: 1,
-    title: "Blog Platform",
+    title: "LightRun",
     description: "A blogging platform for bloggers.",
     image: light,
     category: "ReactJs",

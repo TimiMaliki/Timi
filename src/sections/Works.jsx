@@ -9,27 +9,25 @@ import light from "../img/projects/light/41.png"
 const LatestWorks = () => {
   const projects = [
     {
-      title: "Jobbazar - AI-Powered Job Platform",
-      description:
-        "Revolutionized job searching with machine learning algorithms that match candidates to ideal positions. Built with React, Node.js, and MongoDB, featuring real-time notifications and advanced filtering.",
+      title: "Dental Hospital landing page",
+      description:`a modern dental hospital dedicated to providing exceptional oral care in a comfortable and patient-centered environment.`,
       image:hospital,
       tags: ["Html", "Css", "Bootstrap"],
       year: "2023",
       link: "/projects/jobbazar",
     },
     {
-      title: "Slepp - Social Media for Professionals",
-      description:
-        "Created a LinkedIn alternative focused on authentic professional connections. Implemented WebSockets for real-time messaging, custom analytics dashboards, and secure authentication flow.",
+      title: "X Fashion",
+      description: `We specialize in curated women’s fashion that blends quality, comfort, and sophistication—designed to empower confidence in every step`,
       image:women,
       tags: ["Html", "Css", "TailwindCss"],
       year: "2022",
       link: "/projects/slepp",
     },
     {
-      title: "Costa - Restaurant Management System",
-      description:
-        "End-to-end solution for restaurant operations including inventory, POS, and customer loyalty programs. Reduced order processing time by 40% with optimized workflows.",
+      title: "LightRun",
+      description:`The ultimate blogging hub for storytellers, trend-watchers, and digital voices. Designed for modern bloggers, our platform makes 
+      it easy to share news, celebrity updates, lifestyle insights, and thought-provoking content with a wide and engaged audience.`,
       image: light,
       tags: ["ReactJs", "TailwindCss"],
       year: "2023",
