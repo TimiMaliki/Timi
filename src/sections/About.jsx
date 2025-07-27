@@ -15,9 +15,6 @@ import stackLight from "../img/tool/stackIcon.png";
 
 
 
-
-const body = "bg-black"
-
 const AboutMe = () => {
  
   return (

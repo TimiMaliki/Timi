@@ -68,7 +68,7 @@ const Navbar = () => {
         </div>
 
         {/* Light / Dark Mode and gitHub*/}
-        <div className="flex justify-center gap-4">
+        <div className="hidden md:flex justify-center gap-4">
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="p-2 text-xl transition"
@@ -92,9 +92,9 @@ const Navbar = () => {
 
         <button onClick={() => isOpen(!open)} className="md:hidden">
           {open ? (
-            <XMarkIcon className="w-8 h-8 text-slate-700" />
+            <XMarkIcon className="w-8 h-8 " />
           ) : (
-            <FaAlignRight className="w-8 h-8 text-slate-700" />
+            <FaAlignRight className="w-8 h-8 " />
           )}
         </button>
       </div>
@@ -107,12 +107,34 @@ const Navbar = () => {
             <a
               href={nav.href}
               key={index}
-              className="text-md font-medium  hover:text-slate-900 transition-all duration-300"
+              className="text-md font-medium  hover:text-blue-900 transition-all duration-300"
             >
               {nav.name}
             </a>
           ))}
+
+           {/* Light / Dark Mode and gitHub*/}
+        <div className=" md:hidden flex justify-start gap-4">
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="p-2 text-xl transition"
+            aria-label="Toggle Dark Mode"
+          >
+            {darkMode ? (
+              <SunIcon className={`w-8 h-8 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
+            ) : (
+              <MoonIcon className={`w-8 h-8 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
+            )}
+          </button>
+
+          {/* GitHub Contact */}
+
+         <a href="https://github.com/TimiMaliki">
+         <FaGithub className={`w-8 h-10 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
+         </a>
         </div>
+        </div>
+        
       )}
     </nav>
   );
