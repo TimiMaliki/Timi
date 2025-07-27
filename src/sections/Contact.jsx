@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="contact py-8 grid grid-cols-1 lg:grid-cols-2 gap-12  mx-auto px-4 max-w-7xl ovo-regular">
+    <div className="contact py-8 grid grid-cols-1 lg:grid-cols-2 gap-12  mx-auto px-4 max-w-7xl ovo-regular" id="contact">
       {/* Contact Information */}
       <div className="form space-y-8">
         <div className=" p-8 rounded-2xl shadow-lg border border-gray-100">

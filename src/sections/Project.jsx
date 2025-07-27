@@ -68,6 +68,7 @@ const projectsData = [
     image: bright,
     category: "ReactJs",
     tags: ["Reactjs", "Tailwindcss", "Swiper Js"],
+    link : "https://brightburn.vercel.app/"
   },
   {
     id: 5,
