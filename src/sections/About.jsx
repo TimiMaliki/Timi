@@ -1,15 +1,25 @@
 import Card from "../component/card";
-import profilePicture from "../img/pexels-almustapha-adam-1663967297-30159714.jpg";
-import lang from "../img/about-me/program_16632872.png";
-import edu from "../img/about-me/mortarboard_114806.png";
-import project from "../img/about-me/business-bag_18922627.png";
-import github from "../img/tool/git_2111423.png";
-import figma from "../img/tool/figma_5968704.png";
-import stackOverflow from "../img/tool/stack_13651023.png";
-import vscode from "../img/tool/visual-basic_5968571.png";
 import Header from "../component/Headers";
 
+
+import profilePicture from "../img/pexels-almustapha-adam-1663967297-30159714.jpg";
+import lang from "../img/tool/meeting_15644311.png";
+import edu from "../img/tool/graduated_13305391.png";
+import project from "../img/tool/briefcase_12090562.png";
+
+
+import vsLight from "../img/tool/logoLight.png";
+import figmaLight from "../img/tool/figmaLight.png";
+import gitLight from "../img/tool/gitLight.png";
+import stackLight from "../img/tool/stackIcon.png";
+
+
+
+
+const body = "bg-black"
+
 const AboutMe = () => {
+ 
   return (
     <div className="max-w-7xl grid place-content-center mx-auto w-full py-24" id="about">
     <Header intro={"Introduction"} title={"About me"}/>
@@ -72,16 +82,16 @@ const AboutMe = () => {
         </div>
         <div className="tools-box flex justify-center md:flex md:justify-center gap-4">
         <div className="box-one rounded-lg border  w-[60px] h-[60px] flex align-middle justify-center text-center p-2 shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]">
-            <img src={vscode} alt="github" className="w-[40px] h-[40px]" />
+            <img src={vsLight} alt="vscode" className="w-[40px] h-[40px]" />
           </div>
           <div className="box-one rounded-lg border  w-[60px] h-[60px] flex align-middle justify-center text-center p-2 shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]">
-            <img src={github} alt="github" className="w-[40px] h-[40px]" />
+            <img src={gitLight} alt="github" className="w-[40px] h-[40px]" />
           </div>
           <div className="box-one rounded-lg border  w-[60px] h-[60px] flex align-middle justify-center text-center p-2 shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]">
-            <img src={figma} alt="github" className="w-[40px] h-[40px]" />
+            <img src={figmaLight} alt="figma" className="w-[40px] h-[40px]" />
           </div>
           <div className="box-one rounded-lg border  w-[60px] h-[60px] flex align-middle justify-center text-center p-2 shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]">
-            <img src={stackOverflow} alt="github" className="w-[40px] h-[40px]" />
+            <img src={stackLight} alt="stack" className="w-[40px] h-[40px]" />
           </div>
         </div>
       </div>

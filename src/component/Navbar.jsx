@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <nav
       className={`sticky top-0 left-0  w-full z-50 ${
-        darkMode ? "bg-black text-white" : "bg-white text-black"
+        darkMode ? "" : ""
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">

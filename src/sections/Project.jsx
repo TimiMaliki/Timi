@@ -286,7 +286,7 @@ const Projects = () => {
   const currentProjects = filteredProjects.slice(startIdx, startIdx + itemsPerPage);
 
   return (
-    <section id="projects" className="py-20  px-4">
+    <section id="projects" className="py-8  px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mt-10 mb-4">Passion Projects</h2>
         <p className="text-lg mb-12">A glimpse into the work I’m proud of</p>

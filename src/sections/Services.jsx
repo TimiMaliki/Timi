@@ -1,16 +1,16 @@
 import Header from "../component/Headers";
 import Card from "../component/card";
-import webDesign from "../img/tool/globe_10747502.png";
-import teaching from "../img/tool/teacher_9721094.png";
-import behance from "../img/tool/social-media_14417430.png";
-import gallery from "../img/tool/gallery_833281.png";
+import webDesign from "../img/tool/globe_17267121.png";
+import teaching from "../img/tool/teacher_12770608.png";
+import behance from "../img/tool/behance_220615.png";
+import gallery from "../img/tool/drawing_7347268.png";
 
 const Services = () => {
     return ( 
         <div className="max-w-7xl grid place-content-center mx-auto w-full py-8 ovo-regular" id="service">
             <Header intro={"What I offer"} title={"My Services"}/>
             <div className="text-center">
-                <h2 className="text-xl p-5 md:p-0">
+                <h2 className="text-xl p-5 md:p-10">
             "I aim to contribute to the success of your company by <br /> leveraging my technical skills and problem-solving mindset to build impactful web solutions."
                 </h2>
             </div>

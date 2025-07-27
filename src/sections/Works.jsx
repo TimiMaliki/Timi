@@ -41,7 +41,7 @@ const LatestWorks = () => {
         {/* Header */}
         <Header intro={"Portfolio showcase"} title={"My Work"} id=""/>
         {/* Projects Grid */}
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3 text-black">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <div
               key={index}
