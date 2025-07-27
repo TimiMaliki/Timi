@@ -20,6 +20,9 @@ import woof from "../img/projects/woof/1.png"
 import bright from "../img/projects/brightburn/Screenshot from 2025-07-25 17-19-48.png"
 import test from "../img/projects/knowledge/5.png"
 
+//Next projects
+import vento from "../img/projects/vento/Screenshot from 2025-07-27 03-36-06.png"
+
 // javaScript projects
 import CountryAPI from "../img/projects/JavaScript/js1.png"
 import CurrencyAPI from "../img/projects/JavaScript/js2.png"
@@ -252,6 +255,15 @@ const projectsData = [
     image: rem,
     category:"JavaScript",
     tags: ["Html", "Css","JavaScript"],
+    link : "https://github.com/TimiMaliki/20-javaScript-Projects/tree/master/FrontEnd-portfolio/JavaScript/20)%20REM-PX-Converter"
+  },
+  {
+    id: 25,
+    title: "Vento Furnitures",
+    description: "Modern Furnitures",
+    image: vento,
+    category:"Nextjs",
+    tags: ["Nextjs", "Tailwindcss"],
     link : "https://github.com/TimiMaliki/20-javaScript-Projects/tree/master/FrontEnd-portfolio/JavaScript/20)%20REM-PX-Converter"
   },
   
