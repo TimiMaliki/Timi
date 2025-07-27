@@ -83,7 +83,7 @@ const Contact = () => {
           <h3 className="text-2xl font-bold mb-6">Connect With Us</h3>
           <div className="flex space-x-4">
             <div className="bg-gray-100  hover:bg-gray-200 p-3 rounded-full transition-colors">
-              <a href="">
+              <a href="https://wa.me/qr/RJYG6ACYJUUGB1">
                 <svg
                   className="w-8 h-8 text-green-500"
                   fill="currentColor"
@@ -121,6 +121,7 @@ const Contact = () => {
       </div>
       <div className="map">
         <iframe
+         title="Google Map of Abakaliki Mile 50"
           src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15861.660157423237!2d8.087519509732987!3d6.340255924939082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAbakaliki%20mile%2050!5e0!3m2!1sen!2sng!4v1753578622596!5m2!1sen!2sng"
           width="600"
           height="450"
