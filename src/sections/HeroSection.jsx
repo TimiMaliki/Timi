@@ -1,6 +1,6 @@
 import {ArrowRightIcon } from "@heroicons/react/24/solid";
 import Buttons from "../component/buttons";
-import myPic from "../img/pexels-almustapha-adam-1663967297-30159714.jpg";
+import myPic from "../img/timi-pictures/timi1.jpeg";
 import resume from "../resume/Timi.pdf"
 import { FaDownload} from "react-icons/fa";
 

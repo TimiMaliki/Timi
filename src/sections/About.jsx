@@ -2,7 +2,7 @@ import Card from "../component/card";
 import Header from "../component/Headers";
 
 
-import profilePicture from "../img/pexels-almustapha-adam-1663967297-30159714.jpg";
+import profilePicture from "../img/timi-pictures/timi4.jpeg";
 import lang from "../img/tool/meeting_15644311.png";
 import edu from "../img/tool/graduated_13305391.png";
 import project from "../img/tool/briefcase_12090562.png";
@@ -25,7 +25,7 @@ const AboutMe = () => {
           <img
             src={profilePicture}
             alt="profilepicture"
-            className="w-full md:w-[350px] md:h-[400px] rounded-xl"
+            className="w-full md:w-[350px] md:h-[450px] object-cover rounded-xl"
           />
         </div>
 
