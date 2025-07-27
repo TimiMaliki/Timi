@@ -1,10 +1,10 @@
 const Contact = () => {
   return (
-    <div className="contact py-8 grid grid-cols-1 lg:grid-cols-2 gap-12  mx-auto px-4 max-w-7xl">
+    <div className="contact py-8 grid grid-cols-1 lg:grid-cols-2 gap-12  mx-auto px-4 max-w-7xl ovo-regular">
       {/* Contact Information */}
       <div className="form space-y-8">
         <div className=" p-8 rounded-2xl shadow-lg border border-gray-100">
-          <h3 className="text-2xl font-bold mb-6">Our Office</h3>
+          <h3 className="text-2xl font-bold mb-6">Contact</h3>
 
           <div className="flex items-start mb-8">
             <div className="bg-purple-100 p-3 rounded-full mr-6">
@@ -80,7 +80,7 @@ const Contact = () => {
         </div>
 
         <div className="p-8 rounded-2xl shadow-lg border border-gray-100">
-          <h3 className="text-2xl font-bold mb-6">Connect With Us</h3>
+          <h3 className="text-2xl font-bold mb-6">Socials</h3>
           <div className="flex space-x-4">
             <div className="bg-gray-100  hover:bg-gray-200 p-3 rounded-full transition-colors">
               <a href="https://wa.me/qr/RJYG6ACYJUUGB1">
